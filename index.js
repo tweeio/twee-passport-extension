@@ -7,15 +7,16 @@ module.exports.extension = function() {
     var passport = require('passport')
         , app = twee.getApplication();
 
-    if (twee.getConfig('twee:options:passport:enabled')) {
-        app.use(passport.initialize());
-        app.use(passport.session());
-    }
+    app.use(passport.initialize());
+    app.use(passport.session());
 };
 
 module.exports.dependencies = {
     // Session is required for passport
-    "Twee Session": {
+    "Session": {
         "module": "twee-session-extension"
     }
 };
+
+module.exports.configNamespace = 'twee-passport';
+module.exports.config = {};
