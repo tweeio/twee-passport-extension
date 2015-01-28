@@ -1,10 +1,10 @@
 {
     "name": "twee-passport-extension",
     "preferGlobal": false,
-    "version": "0.0.2",
+    "version": "0.0.4",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
-    "homepage": "https://github.com/mesin/twee-passport-extension",
-    "description": "Passport Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "homepage": "https://github.com/tweeio/twee-passport-extension",
+    "description": "Passport Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
     "license": "MIT",
     "dependencies": {
         "passport": "*"
@@ -12,7 +12,7 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/mesin/twee-passport-extension.git"
+        "url": "https://github.com/tweeio/twee-passport-extension.git"
     },
     "keywords": [
         "passport",
@@ -35,6 +35,6 @@
         "api"
     ],
     "bugs": {
-        "url": "https://github.com/mesin/twee-passport-extension/issues"
+        "url": "https://github.com/tweeio/twee-passport-extension/issues"
     }
 }

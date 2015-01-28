@@ -6,10 +6,31 @@
 [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/tweeio/twee-framework)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/tweeio/twee-framework)
 
-Passport Middleware Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
+Passport Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
 
 To install it use this command:
 
 ```
 npm install twee-passport-extension --save
+```
+
+
+Editing `package.json` of your application:
+
+```
+"dependencies": {
+    "twee-passport-extension": "*"
+}
+```
+
+Turning extension `ON` in `application/configs/twee.js`:
+
+```
+module.exports = {
+    "extensions": {
+        "Passport": {
+            "module": "twee-passport-extension"
+        }
+    }
+};
 ```
