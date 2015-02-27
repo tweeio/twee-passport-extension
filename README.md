@@ -32,7 +32,10 @@ twee.emit('twee-passport-extension.strategiesInstalled'); // <- HERE
 // Initializing Passport
 app.use(passport.initialize());
 app.use(passport.session());
-// ...
+
+// ... routes to express.app installed HERE
+
+twee.emit('twee-passport-extension.strategiesRoutesInstalled') // <- AFTER THIS INSTALL YOUR ROUTES
 ```
 
 So you can subscribe to this event and wait until `twee-passport-extension` will install it's strategies. And add your specific strategies to application.
