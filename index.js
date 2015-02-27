@@ -190,6 +190,8 @@ module.exports.extension = function() {
             }
         }
     }
+    
+    twee.emit('twee-passport-extension.strategiesRoutesInstalled');
 };
 
 module.exports.dependencies = {
