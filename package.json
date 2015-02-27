@@ -1,13 +1,12 @@
 {
     "name": "twee-passport-extension",
     "preferGlobal": false,
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
     "homepage": "https://github.com/tweeio/twee-passport-extension",
-    "description": "Passport Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "description": "Passport Extension for Twee.IO Framework - Modular Framework for Node.js based on Express.js",
     "license": "MIT",
     "dependencies": {
-        "passport": "*"
     },
     "devDependencies": {},
     "repository": {
@@ -16,6 +15,14 @@
     },
     "keywords": [
         "passport",
+        "digest",
+        "basic",
+        "facebook",
+        "twitter",
+        "linkedin",
+        "google",
+        "oauth",
+        "oauth2",
         "authentication",
         "authorization",
         "auth",
